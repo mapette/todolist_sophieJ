@@ -1,0 +1,34 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        function AddLine(name, content) {
+            let line = document.createElement(name)
+            line.innerText = content
+            document.body.append(line)
+        }
+
+        function DisplayTask(task) {
+            AddLine("h2", task["nom"])
+            AddLine("div", task.description)
+        }
+
+        function DisplayTasks(tasks) {
+            for (let t of tasks) {
+                DisplayTask(t)
+            }
+        }
+
+        fetch("/get-tasks")
+            .then(response => {
+                return response.json()
+            }).then(tasks => {
+                DisplayTasks(tasks)
+            })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body{
+  margin-top: 30px
+}
+
+#root{
+  font-size: 14;
+}
+
+.en-ligne {
+  display: inline-block;
+}
+
+h1{
+  color:purple
+}
+
+.ligne-vide{
+  height: 20px;
+  visibility: hidden;
+}
+
+.esp-haut {
+  margin-top: 50px;
+}
+
+.petit{
+  font-size: 12px;
+}
+
+.text-gauche{
+  padding-left: 10;
+  padding-top: 3px;
+}
+
+.form-control{
+  font-size: 12px;
+}
+
+.checkUpdate{
+  margin-top: 8px;
+}
+.checkList {
+  margin-top: 4px;
+}
+
+.center-delete{
+  margin-left: 20px;
+}
+
+.long-desc{
+  width: 400px;
+}
+
+.noir{
+  color : gainsboro;
+  background-color: black;
+}
+.rouge{
+  color : white;
+  background-color : red;
+}
+.orange{
+  background-color : orange;
+}
+.jaune{
+  background-color : yellow;
+}
+.vert{
+  color : white;
+  background-color : green;
+}

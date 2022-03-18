@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/style_todolist.css">
+    <meta charset="utf-8" />
+    <style>
+        xdiv {
+            border: solid 1px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-8 col-md-6 col-xl-4 offset-1 ">
+                <span class="">
+                    <h1><strong>TO DO LIST</strong></h1>
+                </span>
+            </div>
+        </div>
+        <div class="row text-center esp-haut">
+            <div class="col-8 col-md-6 col-xl-4 offset-1 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXzupnGCDNx864Chn7-oYK3VPK43hUfZ-qBpM9orWUyxzpdVpAsH6pwDq9euzM6U9KCK8&usqp=CAU"
+                    width="150">
+            </div>
+        </div>
+        <div class="row text-center esp-haut">
+            <div class="en-ligne col-4 col-md-3 col-xl-2 offset-1">
+                <form method="POST" action="/butCheckTaskListFromAccueil" enctype="application/x-www-form-urlencoded">
+                    <input id="btCheck"  type="submit" class="btn btn-success" value="CHECK !!!">
+                </form>
+            </div>
+            <div class="en-ligne col-4 col-md-3 col-xl-2">
+                <form method="POST" action="/butUpdateTaskListFromAccueil" enctype="application/x-www-form-urlencoded">
+                    <input id="btUpdate" type="submit" class="btn btn-primary" value="MAJ liste">
+                </form>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-8 col-md-6 col-xl-4 offset-1">
+                <a href="/test-react-props-map.html">
+                    <input type="button" class="btn btn-secondary" value="liste React">
+                </a>
+            </div>
+        </div>
+        <br /><br />
+        <div class="row text-center">
+            <div class="col-8 col-md-6 col-xl-4  offset-1 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLYKAGnbzdgoNpJgpVZgHB3v628mwUP2lzw&usqp=CAU"
+                    width="150">
+            </div>
+        </div>
+</body>
+
+</html>
