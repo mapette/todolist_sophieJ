@@ -6,18 +6,18 @@ Gestion de listes de tâches et de rendez-vous
     Suppression
 
 
-## installation
+## Installation
 
 Projet local développé en HTML/css/javascrip/jsx
 librairies utilisées : Express - MySQL
 
 
-## utilisation
+## Utilisation
 
 lancement : node serveur-todolist.js
 
 
-## prérequis 
+## Prérequis 
 
 Base de données MySql
 
@@ -35,7 +35,7 @@ CREATE TABLE `todolist-Table` (
   PRIMARY KEY (`id`));
 
 
-## tests unitaires
+## Tests unitaires
 
 test sur la page fetch :
     todolist_sophieJ\public\src
