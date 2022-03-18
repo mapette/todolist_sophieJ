@@ -1,31 +1,37 @@
 # TODO LIST
 
 Gestion de listes de tâches et de rendez-vous
-    Création
-    Mise à jour
-    Suppression
+* Création
+* Mise à jour
+* Suppression
 
 
 ## Installation
 
-Projet local développé en HTML/css/javascrip/jsx
-librairies utilisées : Express - MySQL
+Projet en local développé en 
 
+* HTML
+* css 
+* javascrip
+* jsx
+
+Librairies utilisées :
+
+* Express 
+* mysql
 
 ## Utilisation
 
-lancement : node serveur-todolist.js
+Lancement depuis l'invite cmd : node serveur-todolist.js
 
+## Base de données MySql
 
-## Prérequis 
+### Personaliser le code
 
-Base de données MySql
+fichier `\src\db_manager.js`  
+lignes 8 et 9 : indiquer le user et le mot de passe MySql
 
-Personalisation du code :
-Fichier `\src\db_manager.js`
-  => lignes 8 et 9 : indiquer le user et le mot de passe MySql
-
-Requête de création de la table dans une database `tasks_db`:
+### Requête de création de la table dans une database `tasks_db`
 CREATE TABLE `todolist-Table` (
   `id` INT NOT NULL,
   `nom` VARCHAR(50) NULL DEFAULT NULL,
@@ -34,8 +40,7 @@ CREATE TABLE `todolist-Table` (
   `fini` TINYINT NULL DEFAULT 0,
   PRIMARY KEY (`id`));
 
-
 ## Tests unitaires
 
-test sur la page fetch :
+Tests sur la page fetch :
     todolist_sophieJ\public\src
