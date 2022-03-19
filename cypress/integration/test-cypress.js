@@ -20,6 +20,4 @@ it('visits base url', () => {
 
     // retourner dans la todo list
     cy.get('#btCheck').click()
-
-
 })

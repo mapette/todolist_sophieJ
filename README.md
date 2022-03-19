@@ -4,7 +4,7 @@ Gestion de listes de tâches et de rendez-vous
 * Création
 * Mise à jour
 * Suppression
-
+* affichage de la liste en mode React
 
 ## Installation
 
@@ -17,12 +17,13 @@ Projet en local développé en
 
 Librairies utilisées :
 
-* Express 
+* express 
 * mysql
+* cypress
 
-## Utilisation
+## Lancement
 
-Lancement depuis l'invite cmd : node serveur-todolist.js
+Depuis l'invite cmd : node serveur-todolist.js
 
 ## Base de données MySql
 
